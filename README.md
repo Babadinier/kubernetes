@@ -19,3 +19,5 @@ Get deployment: `kubectl get deployment`
 Create nodeport from deployment: `kubectl expose deployment {name-deployment} --port=80 --type=NodePort`<br>
 Get service: `kubectl get service {name-service}`<br>
 Create a tunnel between the VM of our local cluster to our local machine: `minikube service aspnet-sample-deployment`
+<br><br>
+Enable ingress addon: `minikube addons enable ingress`<br>
